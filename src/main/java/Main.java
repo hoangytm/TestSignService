@@ -6,7 +6,6 @@ import vn.bcy.vgca.simtoolkit.VGCAToolkit;
 
 import java.io.File;
 import java.nio.file.Files;
-import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;

@@ -57,7 +57,66 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.6.4</version>
         </dependency>
+
+
+    <dependency>
+        <groupId>com.mobifone</groupId>
+        <artifactId>additionalbouncycastle</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/additionalbouncycastle.jar</systemPath>
+    </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>bcprov-jdk15-145</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/bcprov-jdk15-145.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>itextg-5.5.9</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/itextg-5.5.9.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>sc-light-jdk15on-1.47.0.2</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/sc-light-jdk15on-1.47.0.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>scpkix-jdk15on-1.47.0.2</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/scpkix-jdk15on-1.47.0.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>scprov-jdk15on-1.47.0.2</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/scprov-jdk15on-1.47.0.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>synapse-nhttp-transport-3.0.0</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/synapse-nhttp-transport-3.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.mobifone</groupId>
+            <artifactId>VGCAToolkit</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/VGCAToolkit.jar</systemPath>
+        </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
